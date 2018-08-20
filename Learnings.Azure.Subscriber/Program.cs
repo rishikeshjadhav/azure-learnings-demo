@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learnings.Azure
+namespace Learnings.Azure.Subscriber
 {
     class Program
     {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6E458593-5109-46B8-9D99-DCCB3F4088A9}</ProjectGuid>
+    <ProjectGuid>{532171EF-1FC5-42FB-A67F-2CD5CB9734E6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Learnings.Azure</RootNamespace>
-    <AssemblyName>Learnings.Azure</AssemblyName>
+    <RootNamespace>Learnings.Azure.Publisher</RootNamespace>
+    <AssemblyName>Learnings.Azure.Publisher</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AddEmployee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Learnings.Azure.Common\Learnings.Azure.Common.csproj">
+      <Project>{CC8D6FF2-45B0-48B5-AEEE-473D903EE011}</Project>
+      <Name>Learnings.Azure.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

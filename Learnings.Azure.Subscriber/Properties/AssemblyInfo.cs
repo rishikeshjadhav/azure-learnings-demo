@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Learnings.Azure")]
+[assembly: AssemblyTitle("Learnings.Azure.Subscriber")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Learnings.Azure")]
+[assembly: AssemblyProduct("Learnings.Azure.Subscriber")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6e458593-5109-46b8-9d99-dccb3f4088a9")]
+[assembly: Guid("9678458b-b9b5-4eae-bd29-5f624853b62d")]
 
 // Version information for an assembly consists of the following four values:
 //
